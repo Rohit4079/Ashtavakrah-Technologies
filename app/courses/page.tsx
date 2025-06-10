@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import { Clock, Users, Award, Star, CheckCircle, Play, Download, BookOpen } from "lucide-react"
+import Image from 'next/image';
 
 export default function CoursesPage() {
   const courses = [
@@ -16,7 +17,8 @@ export default function CoursesPage() {
       students: 150,
       rating: 4.8,
       price: 5000,
-      image: "/placeholder.svg?height=200&width=300",
+      image:  "/ar.webp",
+
       features: [
         "Basic electronics concepts",
         "Arduino IDE setup and usage",
@@ -37,7 +39,7 @@ export default function CoursesPage() {
       students: 200,
       rating: 4.9,
       price: 12000,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/mi.png",
       features: [
         "Python programming basics",
         "Data analysis with pandas",
@@ -58,7 +60,7 @@ export default function CoursesPage() {
       students: 120,
       rating: 4.7,
       price: 15000,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/ro.jpg",
       features: [
         "Robot design principles",
         "Motor control and sensors",
@@ -79,7 +81,7 @@ export default function CoursesPage() {
       students: 80,
       rating: 4.6,
       price: 18000,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/qu.jpg",
       features: [
         "Quantum mechanics principles",
         "Quantum gates and circuits",
@@ -100,7 +102,7 @@ export default function CoursesPage() {
       students: 100,
       rating: 4.8,
       price: 10000,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/iot.png",
       features: [
         "IoT architecture and protocols",
         "ESP32 and WiFi connectivity",
@@ -121,7 +123,7 @@ export default function CoursesPage() {
       students: 90,
       rating: 4.5,
       price: 8000,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/3d.webp",
       features: [
         "3D modeling with Fusion 360",
         "3D printing technologies",
