@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Atom, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -10,14 +10,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-pink-500">
-                <Atom className="h-6 w-6 text-white" />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold">Ashtavakrah Technologies</h3>
-                <p className="text-sm text-gray-400">STEM Education Excellence</p>
-              </div>
+            <div className="flex items-center space-x-2 mb-4">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7JaqAqUtEBvw8i2QQxLiYKmYwYZcT1.png"
+                alt="Ashtavakrah Technologies Pvt Ltd"
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-gray-400 text-sm">
               Making science and technology engaging and career-ready through interactive learning experiences for

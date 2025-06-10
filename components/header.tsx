@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu, Atom, Phone } from "lucide-react"
+import { Menu, Phone } from "lucide-react"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,13 +24,11 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-pink-500">
-              <Atom className="h-6 w-6 text-white" />
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-gray-900">Ashtavakrah Technologies</h1>
-              <p className="text-xs text-gray-600">STEM Education Excellence</p>
-            </div>
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7JaqAqUtEBvw8i2QQxLiYKmYwYZcT1.png"
+              alt="Ashtavakrah Technologies Pvt Ltd"
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
