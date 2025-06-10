@@ -19,7 +19,7 @@ export default function EventsPage() {
       status: "Registration Opening Soon",
       capacity: "Unlimited",
       price: "Free",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop&crop=center",
       highlights: [
         "Overview of all upcoming programs",
         "Meet our expert instructors",
@@ -38,7 +38,7 @@ export default function EventsPage() {
       status: "Beta Testing",
       capacity: "15 students",
       price: "₹500 (Refundable)",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/ar.webp",
       highlights: [
         "Hands-on Arduino programming",
         "Build your first IoT project",
@@ -57,7 +57,7 @@ export default function EventsPage() {
       status: "Planning Phase",
       capacity: "100 students",
       price: "Free",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop&crop=center",
       highlights: [
         "Industry expert speakers",
         "Career roadmap guidance",
@@ -76,7 +76,7 @@ export default function EventsPage() {
       status: "Save the Date",
       capacity: "200 attendees",
       price: "Free",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=250&fit=crop&crop=center",
       highlights: [
         "Live demonstrations of all programs",
         "Special launch discounts",
