@@ -11,15 +11,18 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-4">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7JaqAqUtEBvw8i2QQxLiYKmYwYZcT1.png"
-                alt="Ashtavakrah Technologies Pvt Ltd"
-                className="h-10 w-auto"
-              />
+              <div className="relative overflow-hidden rounded-md transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7JaqAqUtEBvw8i2QQxLiYKmYwYZcT1.png"
+                  alt="Ashtavakrah Technologies Pvt Ltd"
+                  className="h-10 w-auto transition-all duration-300 hover:scale-105"
+                />
+              </div>
             </div>
             <p className="text-gray-400 text-sm">
               Making science and technology engaging and career-ready through interactive learning experiences for
-              school students.
+              school students. Launching in 2025.
             </p>
           </div>
 
@@ -79,7 +82,10 @@ export function Footer() {
                   placeholder="Enter your email"
                   className="bg-gray-800 border-gray-700 text-white placeholder-gray-400"
                 />
-                <Button size="sm" className="bg-gradient-to-r from-purple-500 to-pink-500">
+                <Button
+                  size="sm"
+                  className="bg-gradient-to-r from-purple-500 to-pink-500 hover:shadow-md hover:shadow-purple-500/20 transition-all duration-300"
+                >
                   Subscribe
                 </Button>
               </div>
@@ -88,7 +94,12 @@ export function Footer() {
             {/* Social Links */}
             <div className="flex space-x-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
-                <Button key={index} variant="ghost" size="icon" className="text-gray-400 hover:text-white">
+                <Button
+                  key={index}
+                  variant="ghost"
+                  size="icon"
+                  className="text-gray-400 hover:text-white hover:bg-gray-800 transition-all duration-300"
+                >
                   <Icon className="h-5 w-5" />
                 </Button>
               ))}

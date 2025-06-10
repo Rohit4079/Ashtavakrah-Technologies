@@ -45,34 +45,27 @@ export default function HomePage() {
     },
   ]
 
-  const stats = [
-    { icon: Users, value: "500+", label: "Students Trained" },
-    { icon: Award, value: "50+", label: "Workshops Conducted" },
-    { icon: Microscope, value: "25+", label: "DIY Kits Developed" },
-    { icon: Star, value: "4.9", label: "Average Rating" },
-  ]
-
   const upcomingEvents = [
     {
-      title: "Arduino Basics Workshop",
-      date: "Dec 15, 2024",
-      time: "10:00 AM - 4:00 PM",
+      title: "Launch Announcement",
+      date: "Jan 2025",
+      time: "Coming Soon",
       location: "New Delhi",
-      spots: "12 spots left",
+      spots: "Stay Tuned",
     },
     {
       title: "AI for Beginners",
-      date: "Dec 22, 2024",
-      time: "2:00 PM - 6:00 PM",
+      date: "Feb 2025",
+      time: "To Be Announced",
       location: "Online",
-      spots: "8 spots left",
+      spots: "Coming Soon",
     },
     {
       title: "Robotics Challenge",
-      date: "Jan 5, 2025",
-      time: "9:00 AM - 5:00 PM",
+      date: "Mar 2025",
+      time: "To Be Announced",
       location: "New Delhi",
-      spots: "5 spots left",
+      spots: "Coming Soon",
     },
   ]
 
@@ -85,21 +78,21 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <Badge className="bg-white/20 text-white border-white/30">🚀 STEM Education Excellence</Badge>
+                <Badge className="bg-white/20 text-white border-white/30">🚀 Launching in 2025</Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                   Making Science & Technology
                   <span className="text-yellow-300"> Engaging</span>
                 </h1>
                 <p className="text-xl text-blue-100 max-w-lg">
-                  Interactive workshops, AI/ML training, and hands-on learning experiences that prepare students for
-                  tomorrow's careers.
+                  Interactive workshops, AI/ML training, and hands-on learning experiences that will prepare students
+                  for tomorrow's careers. Coming soon in 2025.
                 </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
                   <Link href="/contact">
-                    Register Now <ArrowRight className="ml-2 h-5 w-5" />
+                    Learn More <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button
@@ -112,9 +105,14 @@ export default function HomePage() {
                 </Button>
               </div>
 
-              {/* Stats */}
+              {/* Coming Soon Stats */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8">
-                {stats.map((stat, index) => (
+                {[
+                  { icon: Users, value: "Coming Soon", label: "Student Programs" },
+                  { icon: Award, value: "2025", label: "Launch Year" },
+                  { icon: Microscope, value: "In Development", label: "DIY Kits" },
+                  { icon: Star, value: "Expert Team", label: "Ready" },
+                ].map((stat, index) => (
                   <div key={index} className="text-center">
                     <stat.icon className="h-8 w-8 mx-auto mb-2 text-yellow-300" />
                     <div className="text-2xl font-bold">{stat.value}</div>
@@ -150,11 +148,11 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <Badge className="mb-4">Our Services</Badge>
+            <Badge className="mb-4">Our Upcoming Services</Badge>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Comprehensive STEM Learning Solutions</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From basic programming to advanced AI concepts, we offer a complete range of educational services designed
-              to inspire and educate the next generation.
+              From basic programming to advanced AI concepts, we're developing a complete range of educational services
+              designed to inspire and educate the next generation.
             </p>
           </div>
 
@@ -171,9 +169,9 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent className="text-center">
                   <CardDescription className="text-gray-600 mb-4">{service.description}</CardDescription>
-                  <Button variant="ghost" className="text-purple-600 hover:text-purple-700">
-                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  <Badge variant="outline" className="text-purple-600 border-purple-600">
+                    Coming in 2025
+                  </Badge>
                 </CardContent>
               </Card>
             ))}
@@ -186,8 +184,8 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4">Upcoming Events</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Join Our Next Workshop</h2>
-            <p className="text-xl text-gray-600">Don't miss out on our hands-on learning experiences</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Join Our Launch Events</h2>
+            <p className="text-xl text-gray-600">Stay tuned for our upcoming workshops and events in 2025</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -213,7 +211,9 @@ export default function HomePage() {
                       <span>{event.location}</span>
                     </div>
                   </div>
-                  <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500">Register Now</Button>
+                  <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500" disabled>
+                    Coming Soon
+                  </Button>
                 </CardContent>
               </Card>
             ))}
@@ -233,16 +233,15 @@ export default function HomePage() {
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
-            <h2 className="text-4xl font-bold">Ready to Start Your STEM Journey?</h2>
+            <h2 className="text-4xl font-bold">Stay Updated on Our Launch</h2>
             <p className="text-xl text-blue-100">
-              Join thousands of students who have already transformed their understanding of science and technology
-              through our interactive programs.
+              Join our mailing list to receive updates about our launch and upcoming programs in 2025.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
                 <Link href="/contact">
                   <Zap className="mr-2 h-5 w-5" />
-                  Get Started Today
+                  Stay Informed
                 </Link>
               </Button>
               <Button
@@ -251,7 +250,7 @@ export default function HomePage() {
                 size="lg"
                 className="border-white text-white hover:bg-white hover:text-purple-600"
               >
-                <Link href="/courses">Browse Courses</Link>
+                <Link href="/courses">Browse Future Courses</Link>
               </Button>
             </div>
           </div>

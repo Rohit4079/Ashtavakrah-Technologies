@@ -10,7 +10,7 @@ export default function AboutPage() {
       icon: Lightbulb,
       title: "Innovation",
       description:
-        "We constantly evolve our teaching methods to incorporate the latest technologies and pedagogical approaches.",
+        "We're developing cutting-edge teaching methods that incorporate the latest technologies and pedagogical approaches.",
     },
     {
       icon: Heart,
@@ -22,7 +22,7 @@ export default function AboutPage() {
       icon: Users,
       title: "Community",
       description:
-        "We build a supportive learning community where students, educators, and parents collaborate for success.",
+        "We're building a supportive learning community where students, educators, and parents collaborate for success.",
     },
     {
       icon: Award,
@@ -32,22 +32,22 @@ export default function AboutPage() {
   ]
 
   const milestones = [
-    { year: "2020", event: "Company Founded", description: "Started with a vision to revolutionize STEM education" },
-    { year: "2021", event: "First Workshop", description: "Conducted our first Arduino workshop with 15 students" },
+    { year: "2025", event: "Company Launch", description: "Official launch of Ashtavakrah Technologies" },
+    { year: "2025", event: "First Workshop", description: "Conducting our first Arduino workshop" },
     {
-      year: "2022",
-      event: "100+ Students",
-      description: "Reached our first major milestone of training 100+ students",
+      year: "2025",
+      event: "Curriculum Development",
+      description: "Development of comprehensive AI and Machine Learning curriculum",
     },
     {
-      year: "2023",
-      event: "AI/ML Program Launch",
-      description: "Introduced comprehensive AI and Machine Learning curriculum",
+      year: "2025",
+      event: "Partnerships",
+      description: "Establishing partnerships with schools and educational institutions",
     },
     {
-      year: "2024",
-      event: "500+ Students",
-      description: "Expanded to serve over 500 students across multiple programs",
+      year: "2026",
+      event: "Expansion",
+      description: "Expanding to serve more students across multiple programs",
     },
   ]
 
@@ -90,8 +90,9 @@ export default function AboutPage() {
               <span className="text-purple-600"> STEM Education</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Based in New Delhi, we are dedicated to making science and technology engaging, accessible, and
-              career-ready through innovative learning experiences that inspire the next generation of innovators.
+              Based in New Delhi, we are preparing to launch in 2025, dedicated to making science and technology
+              engaging, accessible, and career-ready through innovative learning experiences that inspire the next
+              generation of innovators.
             </p>
           </div>
         </div>
@@ -142,8 +143,8 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <Badge className="mb-4">Our Journey</Badge>
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">From Vision to Reality</h2>
-              <p className="text-xl text-gray-600">Our story of transforming STEM education in India</p>
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Roadmap</h2>
+              <p className="text-xl text-gray-600">Our vision for transforming STEM education in India</p>
             </div>
 
             <div className="space-y-8">
@@ -236,10 +237,10 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div>
                 <Badge className="mb-4">Why Choose Us</Badge>
-                <h2 className="text-4xl font-bold text-gray-900 mb-4">What Makes Us Different</h2>
+                <h2 className="text-4xl font-bold text-gray-900 mb-4">What Will Make Us Different</h2>
                 <p className="text-xl text-gray-600">
-                  We combine cutting-edge technology with proven educational methods to deliver exceptional learning
-                  experiences.
+                  We're combining cutting-edge technology with proven educational methods to deliver exceptional
+                  learning experiences.
                 </p>
               </div>
 
@@ -261,7 +262,7 @@ export default function AboutPage() {
 
               <Button asChild size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500">
                 <Link href="/contact">
-                  Join Our Community <ArrowRight className="ml-2 h-5 w-5" />
+                  Contact Us <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
             </div>
@@ -270,20 +271,20 @@ export default function AboutPage() {
               <div className="bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl p-8">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600">500+</div>
-                    <div className="text-sm text-gray-600">Students Trained</div>
+                    <div className="text-3xl font-bold text-purple-600">2025</div>
+                    <div className="text-sm text-gray-600">Launch Year</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-blue-600">50+</div>
-                    <div className="text-sm text-gray-600">Workshops</div>
+                    <div className="text-3xl font-bold text-blue-600">25+</div>
+                    <div className="text-sm text-gray-600">Planned Courses</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-green-600">25+</div>
-                    <div className="text-sm text-gray-600">DIY Kits</div>
+                    <div className="text-3xl font-bold text-green-600">Expert</div>
+                    <div className="text-sm text-gray-600">Instructors</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-orange-600">4.9</div>
-                    <div className="text-sm text-gray-600">Rating</div>
+                    <div className="text-3xl font-bold text-orange-600">Future</div>
+                    <div className="text-sm text-gray-600">Ready</div>
                   </div>
                 </div>
               </div>
