@@ -14,7 +14,7 @@ export default function BlogPage() {
     date: "December 15, 2024",
     readTime: "8 min read",
     category: "Education",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop&crop=center",
     featured: true,
   }
 
@@ -28,7 +28,7 @@ export default function BlogPage() {
       date: "December 10, 2024",
       readTime: "6 min read",
       category: "Microcontrollers",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop&crop=center",
       views: 1250,
     },
     {
@@ -40,7 +40,7 @@ export default function BlogPage() {
       date: "December 8, 2024",
       readTime: "10 min read",
       category: "AI/ML",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=300&h=200&fit=crop&crop=center",
       views: 980,
     },
     {
@@ -51,7 +51,7 @@ export default function BlogPage() {
       date: "December 5, 2024",
       readTime: "12 min read",
       category: "Robotics",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=300&h=200&fit=crop&crop=center",
       views: 1500,
     },
     {
@@ -62,7 +62,7 @@ export default function BlogPage() {
       date: "December 1, 2024",
       readTime: "15 min read",
       category: "Quantum Computing",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=200&fit=crop&crop=center",
       views: 750,
     },
     {
@@ -73,7 +73,7 @@ export default function BlogPage() {
       date: "November 28, 2024",
       readTime: "7 min read",
       category: "DIY Projects",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=300&h=200&fit=crop&crop=center",
       views: 890,
     },
     {
@@ -84,7 +84,7 @@ export default function BlogPage() {
       date: "November 25, 2024",
       readTime: "9 min read",
       category: "Education",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=300&h=200&fit=crop&crop=center",
       views: 1100,
     },
   ]
@@ -97,18 +97,21 @@ export default function BlogPage() {
       description: "Complete guide to planning your STEM education journey",
       type: "PDF Guide",
       downloads: 450,
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=200&h=150&fit=crop&crop=center",
     },
     {
       title: "Arduino Project Ideas for Beginners",
       description: "25 exciting Arduino projects with step-by-step instructions",
       type: "Project Guide",
       downloads: 320,
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=200&h=150&fit=crop&crop=center",
     },
     {
       title: "AI/ML Career Preparation Checklist",
       description: "Essential skills and resources for AI/ML career preparation",
       type: "Checklist",
       downloads: 280,
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=150&fit=crop&crop=center",
     },
   ]
 
@@ -285,11 +288,20 @@ export default function BlogPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {downloadableResources.map((resource, index) => (
-              <Card key={index} className="text-center hover:shadow-lg transition-shadow border-0">
-                <CardHeader>
-                  <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center mb-4">
-                    <Download className="h-8 w-8 text-white" />
+              <Card key={index} className="hover:shadow-lg transition-shadow border-0 overflow-hidden">
+                <div className="relative">
+                  <img
+                    src={resource.image || "/placeholder.svg"}
+                    alt={resource.title}
+                    className="w-full h-32 object-cover"
+                  />
+                  <div className="absolute top-4 right-4">
+                    <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
+                      <Download className="h-5 w-5 text-white" />
+                    </div>
                   </div>
+                </div>
+                <CardHeader>
                   <CardTitle className="text-xl">{resource.title}</CardTitle>
                   <CardDescription>{resource.description}</CardDescription>
                 </CardHeader>
