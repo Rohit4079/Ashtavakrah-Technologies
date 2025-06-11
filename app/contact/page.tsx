@@ -49,19 +49,19 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["New Delhi, India", "Multiple locations across the city"],
+      details: ["Vande Matram Apartment, Pocket-2", "Sector 6 Dwarka, Delhi"],
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+91-XXXX-XXXX", "Mon-Sat: 9:00 AM - 6:00 PM"],
+      details: ["+91-8090971821", "Mon-Sat: 9:00 AM - 6:00 PM"],
       color: "from-green-500 to-teal-500",
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@ashtavakrah.com", "support@ashtavakrah.com"],
+      details: ["info@ashtavakrah.com", "ashtavakrahtech@gmail.com"],
       color: "from-purple-500 to-pink-500",
     },
     {
@@ -258,7 +258,8 @@ export default function ContactPage() {
                       <MapPin className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Our Location</h3>
                       <p className="text-gray-600">Interactive map will be integrated here</p>
-                      <p className="text-sm text-gray-500 mt-2">New Delhi, India</p>
+                      <p className="text-sm text-gray-500 mt-2">Vande Matram Apartment, Pocket-2</p>
+                      <p className="text-sm text-gray-500">Sector 6 Dwarka, Delhi</p>
                     </div>
                   </div>
                 </CardContent>

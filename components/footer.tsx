@@ -61,11 +61,11 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <MapPin className="h-4 w-4" />
-                <span>New Delhi, India</span>
+                <span>Vande Matram Apartment, Pocket-2 Sector 6 Dwarka, Delhi</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <Phone className="h-4 w-4" />
-                <span>+91-XXXX-XXXX</span>
+                <span>+91-8090971821</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <Mail className="h-4 w-4" />

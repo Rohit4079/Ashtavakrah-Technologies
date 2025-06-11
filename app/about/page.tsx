@@ -53,28 +53,28 @@ export default function AboutPage() {
 
   const teamMembers = [
     {
-      name: "Mrs. Nisha Gupta",
-      role: "Executive Director",
-      // expertise: "With over 10 years of experience in education and technology, Nisha is passionate about transforming STEM learning.",
-      image: "/NISHA GUPTHA.JPEG",
+      name: "Dr. Rajesh Kumar",
+      role: "Founder & CEO",
+      expertise: "PhD in Computer Science, 15+ years in STEM education",
+      image: "/placeholder.svg?height=200&width=200",
     },
     {
-      name: "Akash Sarkar",
-      role: "Lead Instructor",
-      // expertise: "M.Tech in Electronics, Former Google Engineer",
-      image: "/AKASH SARKAR.JPG",
-    },
-    {
-      name: "Yanmila Shadang",
-      role: "Lead Instructor",
-      // expertise: "Robotics Expert, IIT Graduate",
-      image: "/YANMILA.jpg",
-    },
-    {
-      name: "Bharti Sighala",
+      name: "Priya Sharma",
       role: "Head of Curriculum",
-      // expertise: "Data Scientist, Microsoft Certified",
-      image: "/BHARTI.JPG",
+      expertise: "M.Tech in Electronics, Former Google Engineer",
+      image: "/placeholder.svg?height=200&width=200",
+    },
+    {
+      name: "Amit Patel",
+      role: "Lead Instructor",
+      expertise: "Robotics Expert, IIT Graduate",
+      image: "/placeholder.svg?height=200&width=200",
+    },
+    {
+      name: "Sneha Gupta",
+      role: "AI/ML Specialist",
+      expertise: "Data Scientist, Microsoft Certified",
+      image: "/placeholder.svg?height=200&width=200",
     },
   ]
 
