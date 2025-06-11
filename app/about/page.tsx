@@ -53,28 +53,28 @@ export default function AboutPage() {
 
   const teamMembers = [
     {
-      name: "Dr. Rajesh Kumar",
-      role: "Founder & CEO",
-      expertise: "PhD in Computer Science, 15+ years in STEM education",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Nisha Gupta",
+      role: "Executive Director",
+      // expertise: "PhD in Computer Science, 15+ years in STEM education",
+      image: "/n.jpg",
     },
     {
-      name: "Priya Sharma",
-      role: "Head of Curriculum",
-      expertise: "M.Tech in Electronics, Former Google Engineer",
-      image: "/placeholder.svg?height=200&width=200",
-    },
-    {
-      name: "Amit Patel",
+      name: "Akash Sarkar",
       role: "Lead Instructor",
-      expertise: "Robotics Expert, IIT Graduate",
-      image: "/placeholder.svg?height=200&width=200",
+      // expertise: "M.Tech in Electronics, Former Google Engineer",
+      image: "/a.jpg",
     },
     {
-      name: "Sneha Gupta",
-      role: "AI/ML Specialist",
-      expertise: "Data Scientist, Microsoft Certified",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Bharti Sighal",
+      role: "Lead Instructor",
+      // expertise: "Robotics Expert, IIT Graduate",
+      image: "/b.jpg",
+    },
+    {
+      name: "Yanmila Shadang",
+      role: "Specialist",
+      // expertise: "Data Scientist, Microsoft Certified",
+      image: "/y.jpg",
     },
   ]
 
