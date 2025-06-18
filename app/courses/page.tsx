@@ -17,7 +17,7 @@ export default function CoursesPage() {
       students: 150,
       rating: 4.8,
       price: 5000,
-      image:  "/ar.webp",
+      image:  "/arduino-teaching-1.jpg",
 
       features: [
         "Basic electronics concepts",

@@ -24,14 +24,20 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
+          <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative overflow-hidden rounded-md transition-all duration-300 group-hover:shadow-lg">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7JaqAqUtEBvw8i2QQxLiYKmYwYZcT1.png"
+                src="/ashtavakrah-logo.png"
                 alt="Ashtavakrah Technologies Pvt Ltd"
                 className="h-12 w-auto transition-all duration-300 group-hover:scale-105"
               />
+            </div>
+            <div className="hidden sm:block">
+              <h1 className="text-lg font-bold text-gray-800 group-hover:text-purple-600 transition-colors duration-300">
+                Ashtavakrah Technologies
+              </h1>
+              <p className="text-xs text-gray-500 -mt-1">Pvt Ltd</p>
             </div>
           </Link>
 
@@ -62,11 +68,7 @@ export function Header() {
               <div className="flex justify-center mb-8 mt-4">
                 <div className="relative overflow-hidden rounded-md">
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10"></div>
-                  <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7JaqAqUtEBvw8i2QQxLiYKmYwYZcT1.png"
-                    alt="Ashtavakrah Technologies Pvt Ltd"
-                    className="h-12 w-auto"
-                  />
+                  <img src="/ashtavakrah-logo.png" alt="Ashtavakrah Technologies Pvt Ltd" className="h-12 w-auto" />
                 </div>
               </div>
 

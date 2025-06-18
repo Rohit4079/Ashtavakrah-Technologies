@@ -28,7 +28,7 @@ export default function BlogPage() {
       date: "December 10, 2024",
       readTime: "6 min read",
       category: "Microcontrollers",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop&crop=center",
+      image: "/arduino-teaching-2.jpg",
       views: 1250,
     },
     {

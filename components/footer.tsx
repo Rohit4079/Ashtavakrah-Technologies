@@ -10,14 +10,18 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="flex items-center space-x-3 mb-4">
               <div className="relative overflow-hidden rounded-md transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20">
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7JaqAqUtEBvw8i2QQxLiYKmYwYZcT1.png"
+                  src="/ashtavakrah-logo.png"
                   alt="Ashtavakrah Technologies Pvt Ltd"
                   className="h-10 w-auto transition-all duration-300 hover:scale-105"
                 />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-white">Ashtavakrah Technologies</h3>
+                <p className="text-sm text-gray-400 -mt-1">Pvt Ltd</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm">
