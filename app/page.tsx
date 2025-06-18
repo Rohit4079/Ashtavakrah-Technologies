@@ -33,8 +33,8 @@ export default function HomePage() {
     },
     {
       icon: Atom,
-      title: "Quantum Computing",
-      description: "Explore the future of computing technology",
+      title: "Active Sciences",
+      description: "Explore the Science with Fun",
       color: "from-green-500 to-teal-500",
     },
     {
