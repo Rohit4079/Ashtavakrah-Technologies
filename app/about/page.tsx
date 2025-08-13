@@ -59,10 +59,16 @@ export default function AboutPage() {
       image: "/n.jpg",
     },
     {
-      name: "Akash Sarkar",
+      name: "Rohit Maurya",
       role: "Lead Instructor",
       // expertise: "M.Tech in Electronics, Former Google Engineer",
-      image: "/a.jpg",
+      image: "/r.jpg",
+    },
+    {
+      name: "Sadanand Mandal",
+      role: "Managing Director",
+      // expertise: "Data Scientist, Microsoft Certified",
+      image: "/s.jpg",
     },
     {
       name: "Bharti Sighal",
@@ -207,11 +213,11 @@ export default function AboutPage() {
             <p className="text-xl text-gray-600">Our passionate team of educators and industry experts</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {teamMembers.map((member, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow border-0">
                 <CardHeader>
-                  <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center mb-4 overflow-hidden">
+                  <div className="w-38 h-32 mx-auto rounded-full border-2 border-purple-500 bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center mb-4 overflow-hidden">
                     <img
                       src={member.image || "/placeholder.svg"}
                       alt={member.name}
