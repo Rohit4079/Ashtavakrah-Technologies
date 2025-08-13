@@ -59,23 +59,23 @@ export default function AboutPage() {
       image: "/n.jpg",
     },
     {
+      name: "Sadanand Mandal",
+      role: "Administrative Officer",
+      // expertise: "Data Scientist, Microsoft Certified",
+      image: "/s.jpg",
+    },
+    {
       name: "Rohit Maurya",
       role: "Lead Instructor",
       // expertise: "M.Tech in Electronics, Former Google Engineer",
       image: "/r.jpg",
     },
-    {
-      name: "Sadanand Mandal",
-      role: "Managing Director",
-      // expertise: "Data Scientist, Microsoft Certified",
-      image: "/s.jpg",
-    },
-    {
-      name: "Bharti Sighal",
-      role: "Lead Instructor",
-      // expertise: "Robotics Expert, IIT Graduate",
-      image: "/b.jpg",
-    },
+    // {
+    //   name: "Bharti Sighal",
+    //   role: "Lead Instructor",
+    //   // expertise: "Robotics Expert, IIT Graduate",
+    //   image: "/b.jpg",
+    // },
     {
       name: "Yanmila Shadang",
       role: "Specialist",
@@ -213,7 +213,7 @@ export default function AboutPage() {
             <p className="text-xl text-gray-600">Our passionate team of educators and industry experts</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow border-0">
                 <CardHeader>
