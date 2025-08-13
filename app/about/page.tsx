@@ -217,7 +217,7 @@ export default function AboutPage() {
             {teamMembers.map((member, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow border-0">
                 <CardHeader>
-                  <div className="w-32 h-32 mx-auto rounded-full border-2 border-purple-500 bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center mb-4 overflow-hidden">
+                  <div className="w-38 h-32 mx-auto rounded-full border-2 border-purple-500 bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center mb-4 overflow-hidden">
                     <img
                       src={member.image || "/placeholder.svg"}
                       alt={member.name}
