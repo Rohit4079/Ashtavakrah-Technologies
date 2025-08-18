@@ -1,30 +1,39 @@
-# Ashtavakrah technologies website
+<h1>Ashtavakrah Technologies Private Limited</h1>
+<h2>📌 Project Overview</h2>
+<p>This project was developed for Ashtavakrah Technologies Private Limited, an organization focused on providing STEM and scientific learning services to school students.
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+<h3>The website showcases services such as:</h3>
+<ul>
+  <li>Microcontroller-based workshops</li>
+  <li>AI/ML training</li>
+  <li>Quantum computing modules</li>
+  <li>Robotics programs</li>
+  <li>Scientific DIY kits</li>
+</ul>
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/anshumaan-sarafs-projects/v0-ashtavakrah-technologies-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/7IrvMrIDuwr)
+The aim of this platform is to make science and technology engaging, practical, and career-ready through interactive learning.</p>
 
-## Overview
+<h2>🛠️ Tech Stack</h2>
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+<ul>
+  <li>Frontend: HTML, CSS, JavaScript</li>
+  <li>Editor: Visual Studio Code (VSCode)</li>
+  <li>Version Control: Git & GitHub</li>
+  <li>Deployment: Vercel (connected with GitHub)</li>
+  <li>Hosting Integration: Vercel connected with cPanel</li>
+</ul>
 
-## Deployment
+<h2>🚀 Deployment Workflow</h2>
+<ul>
+  <li>Developed locally in VSCode</li>
+  <li>Pushed code to GitHub repository</li>
+  <li>Connected GitHub repo to Vercel for automatic deployments</li>
+  <li>Integrated Vercel with cPanel for hosting</li>
+</ul>
 
-Your project is live at:
-
-**[https://vercel.com/anshumaan-sarafs-projects/v0-ashtavakrah-technologies-website](https://vercel.com/anshumaan-sarafs-projects/v0-ashtavakrah-technologies-website)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/7IrvMrIDuwr](https://v0.dev/chat/projects/7IrvMrIDuwr)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+<h2>🔗 Project Links</h2>
+<ul>
+  <li>GitHub Repository: </li>
+  <li>Vercel Deployment: https://vercel.com/rohit-mauryas-projects-4fb86d1e/ashtavakrah-technologies</li>
+  <li>Live Website (cPanel Hosting): www.ashtavakrah.com </li>
+</ul>
